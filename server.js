@@ -4,6 +4,6 @@ const server = http.createServer((req, res) => {
     res.end("Hello Everybody");
 })
 
-server.listen(8080, () => {
+server.listen(3000, () => {
     console.log("Server");
 });
