@@ -1,5 +1,5 @@
 const express = require("express");
-const app = express()
+const app = express();
 
 const port = 3000;
 
@@ -8,7 +8,7 @@ app.get("/", (req, res) => {
 }) 
 
 app.get("/message", (req, res) => {
-    res.send("This a message sent for first users");
+    res.send({status: 200, message: "Good, it's done!"});
 }) 
 
 app.listen(port, () => {
