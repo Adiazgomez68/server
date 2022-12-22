@@ -12,5 +12,5 @@ app.get("/message", (req, res) => {
 })
 
 app.listen(port, () => {
-    console.log("Server on port 4000");
+    console.log("Server running port 4000");
 })
